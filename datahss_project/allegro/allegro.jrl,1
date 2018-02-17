@@ -1,0 +1,78 @@
+\t (00:00:03) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Jan 29 10:22:45 2018
+\t (00:00:03)         Host=BARACCA User=gino Pid=4308 CPUs=8
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\gino\Desktop\DATAHSS\datahss_project\allegro\DATAHSS.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/DATAHSS.brd
+\t (00:00:05) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:05) trapsize 6289
+\i (00:00:05) trapsize 6772
+\t (00:00:05) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:05) trapsize 6772
+\i (00:00:06) trapsize 6711
+\i (00:00:06) etchedit 
+\i (00:00:09) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: ETCH_TOP"
+\i (00:00:09) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: ETCH_TOP"
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 4.7987 11.1074
+\t (00:00:11) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:11) trapsize 3356
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -0.1007 11.1074
+\t (00:00:11) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:11) trapsize 1678
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 5.7047 13.5907
+\i (00:00:11) trapsize 839
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 9.8154 13.2048
+\i (00:00:16) trapsize 1678
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 7.6510 12.0639
+\i (00:00:18) trapsize 839
+\i (00:00:19) roam start
+\i (00:00:19) roam y 32
+\i (00:00:19) roam y 32
+\i (00:00:20) roam end
+\i (00:00:33) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: ETCH_BOTTOM"
+\i (00:00:33) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: ETCH_BOTTOM"
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 7.7684 13.1207
+\i (00:00:34) trapsize 1678
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 10.1678 14.8657
+\t (00:00:44) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:44) trapsize 3356
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 28.2215 13.7249
+\t (00:00:44) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:44) trapsize 6711
+\i (00:00:45) zoom in 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 61.9799 32.1812
+\t (00:00:45) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:45) trapsize 3356
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 22.6510 28.6913
+\t (00:00:45) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:45) trapsize 6711
+\i (00:01:25) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: ETCH_TOP"
+\i (00:01:25) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: ETCH_TOP"
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in 3.4564 8.4228
+\t (00:01:26) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:01:26) trapsize 3356
+\i (00:13:00) exit 
+\t (00:13:02)     Journal end - Mon Jan 29 10:35:44 2018

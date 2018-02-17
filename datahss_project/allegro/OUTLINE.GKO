@@ -1,0 +1,34 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  C:/temp/allegro/DATAHSS.brd*
+G04 Film Name:    OUTLINE*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.2-P019*
+G04 Origin Date:  Sun Jan 07 11:20:55 2018*
+G04 *
+G04 Layer:  ROUTE KEEPIN/ALL*
+G04 Layer:  PACKAGE KEEPIN/ALL*
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 Layer:  BOARD GEOMETRY/DESIGN_OUTLINE*
+G04 Layer:  BOARD GEOMETRY/CUTOUT*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.0000*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSAX55Y55*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.011811*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X0Y0000166142D02*
+X0000166142D01*
+Y-0000000394D01*
+X-0000001181D01*
+Y0000166142D01*
+X0000000394D01*
+M02*

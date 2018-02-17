@@ -1,0 +1,700 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Jan-06-2018 at 20:19:08 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DATAHSS';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ A1 'ANTENNA_SN_SMD_ANTENNA_START_0D':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49649@NAVARETTI_LIB.ANTENNA.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49649@navaretti_lib.\antenna.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49649@navaretti_lib.\antenna.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'C_SN_SMD_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):TEMP_HUM_SENSOR@DATAHSS.S_TEMP_HUM(SCH_1):INS6303@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):temp_hum_sensor@datahss.s_temp_hum(sch_1):ins6303@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_temp_hum_sensor@datahss.s_temp_hum(sch_1):page1_ins6303@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_SN_SMD_0603_C_10U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51801@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51801@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51801@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_SN_SMD_0603_C_10U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51381@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51381@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51381@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_SN_SMD_0603_C_10U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51533@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51533@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51533@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_SN_SMD_0603_C_10U_1':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51593@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51593@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51593@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_SN_SMD_0603_C_10P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51573@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51573@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51573@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51125@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51125@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51125@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C_SN_SMD_0603_C_12P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49725@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49725@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49725@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C_SN_SMD_0603_C_12P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49745@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49745@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49745@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'C_SN_SMD_0603_C_12P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS50163@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins50163@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins50163@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'C_SN_SMD_0603_C_12P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49473@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49473@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49473@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_SN_SMD_0603_C_4.7U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):CO_SENSOR@DATAHSS.S_CO(SCH_1):INS8553@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):co_sensor@datahss.s_co(sch_1):ins8553@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_co_sensor@datahss.s_co(sch_1):page1_ins8553@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49493@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49493@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49493@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49979@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49979@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49979@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49903@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49903@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49903@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS48911@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins48911@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins48911@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'C_SN_SMD_0603_C_10 U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49843@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49843@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49843@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'C_SN_SMD_0603_C_100N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49533@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49533@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49533@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'C_SN_SMD_0603_C_100N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49959@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49959@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49959@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'C_SN_SMD_0603_C_1.2P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49999@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49999@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49999@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'C_SN_SMD_0603_C_1.2P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49629@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49629@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49629@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49665@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49665@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49665@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SN_SMD_0603_C_0.1U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51713@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51713@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51713@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'C_SN_SMD_0603_C_100N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49609@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49609@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49609@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAPACITOR_SN_SMD_0603_C_100N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49765@NAVARETTI_LIB.CAPACITOR.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49765@navaretti_lib.\capacitor.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49765@navaretti_lib.\capacitor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_SN_SMD_0603_C_0.1U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51341@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51341@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51341@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_SN_SMD_0603_C_10U_1':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51361@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51361@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51361@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_SN_SMD_0603_C_1N':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51781@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51781@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51781@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_SN_SMD_0603_C_10P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51653@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51653@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51653@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_SN_SMD_0603_C_10U':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51693@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51693@analog.\c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51693@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CON1 'CONNECTOR_USB_MICRO_SN_PTH_ZX62':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51145@NAVARETTI_LIB.CONNECTOR_USB_MICRO.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51145@navaretti_lib.\connector_usb_micro.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51145@navaretti_lib.\connector_usb_micro.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CON2 'CONNECTOR_2_SN_PTH_CONNECTOR_2P':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51197@NAVARETTI_LIB.CONNECTOR_2.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51197@navaretti_lib.\connector_2.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51197@navaretti_lib.\connector_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CON3 'CONNECTOR_6_SN_SMD_CONNECTOR6_L':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49553@DATAHASS.CONNECTOR_6.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49553@datahass.\connector_6.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49553@datahass.\connector_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CON4 'CONNECTOR_4_SN_SMD_CONNECTOR4_L':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS52506@NAVARETTI_LIB.CONNECTOR_4.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins52506@navaretti_lib.\connector_4.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins52506@navaretti_lib.\connector_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_SN_SMD_0603_LED_LED':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51037@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51037@discrete.\led.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51037@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_SN_SMD_0603_LED_LED':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51821@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51821@discrete.\led.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51821@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_SN_SMD_0603_LED_LED':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51221@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51221@discrete.\led.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51221@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_SN_SMD_0603_L_1.5UH':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51401@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51401@analog.\l.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51401@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'L_SN_SMD_0603_L_1.5UH':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51673@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51673@analog.\l.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51673@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'L_SN_SMD_0603_L_10UH':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49685@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49685@analog.\l.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49685@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'L_SN_SMD_0603_L_15NH':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49513@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49513@analog.\l.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49513@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'L_SN_SMD_0603_L_2NH':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49883@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49883@analog.\l.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49883@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SN_SMD_0603_R_10K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):INS53767@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):ins53767@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_ins53767@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_SN_SMD_0603_R_180K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS50401@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins50401@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins50401@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_SN_SMD_0603_R_680K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51553@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51553@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51553@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_SN_SMD_0603_R_1M':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51841@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51841@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51841@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_SN_SMD_0603_R_130K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51057@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51057@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51057@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_SN_SMD_0603_R_1.5K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51241@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51241@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51241@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_SN_SMD_0603_R_1.5K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51633@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51633@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51633@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_SN_SMD_0603_R_1.5K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51321@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51321@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51321@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_SN_SMD_0603_R_1.13K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51613@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51613@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51613@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'RESISTOR_SN_SMD_0603_R_100K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49923@NAVARETTI_LIB.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49923@navaretti_lib.\resistor.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49923@navaretti_lib.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SN_SMD_0603_R_10K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):INS53807@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):ins53807@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_ins53807@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SN_SMD_0603_R_4.7 K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):CO_SENSOR@DATAHSS.S_CO(SCH_1):INS8593@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):co_sensor@datahss.s_co(sch_1):ins8593@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_co_sensor@datahss.s_co(sch_1):page1_ins8593@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_SN_SMD_0603_R_4.7 K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):CO_SENSOR@DATAHSS.S_CO(SCH_1):INS8457@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):co_sensor@datahss.s_co(sch_1):ins8457@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_co_sensor@datahss.s_co(sch_1):page1_ins8457@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_SN_SMD_0603_R_1M':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51017@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51017@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51017@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_SN_SMD_0603_R_560K':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS50505@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins50505@analog.\r.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins50505@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SWITCH_ON_OFF_ON_SN_PTH_SWITCH_':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51733@NAVARETTI_LIB.SWITCH_ON_OFF_ON.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51733@navaretti_lib.\switch_on_off_on.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51733@navaretti_lib.\switch_on_off_on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'CC2650_VQFN_32PIN_SN_SMD_TI_CC2':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS53922@DATAHASS.CC2650_VQFN_32PIN.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins53922@datahass.\cc2650_vqfn_32pin.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins53922@datahass.\cc2650_vqfn_32pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'CCS811_SON60P270X400X110-11N_CC':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):CO_SENSOR@DATAHSS.S_CO(SCH_1):INS8477@DATAHASS.CCS811.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):co_sensor@datahss.s_co(sch_1):ins8477@datahass.\ccs811.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_co_sensor@datahss.s_co(sch_1):page1_ins8477@datahass.\ccs811.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'SM-PWM-01C_A2512WV-5P_CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):DUST_SENSOR@DATAHSS.S_DUST(SCH_1):INS10289@DATAHASS.SM-PWM-01C.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):dust_sensor@datahss.s_dust(sch_1):ins10289@datahass.\sm-pwm-01c.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_dust_sensor@datahss.s_dust(sch_1):page1_ins10289@datahass.\sm-pwm-01c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'HTS221_LGA6R75P3X2_200X200X90_H':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):TEMP_HUM_SENSOR@DATAHSS.S_TEMP_HUM(SCH_1):INS6323@DATAHASS.HTS221.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):temp_hum_sensor@datahss.s_temp_hum(sch_1):ins6323@datahass.\hts221.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_temp_hum_sensor@datahss.s_temp_hum(sch_1):page1_ins6323@datahass.\hts221.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'T6713_CO2_T6713_T6713':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):CO2_SENSOR@DATAHSS.S_CO2(SCH_1):INS10043@DATAHASS.T6713_CO2.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):co2_sensor@datahss.s_co2(sch_1):ins10043@datahass.\t6713_co2.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_co2_sensor@datahss.s_co2(sch_1):page1_ins10043@datahass.\t6713_co2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'TPS6305_RMW0012A_TPS63050':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51421@DATAHASS.TPS6305.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51421@datahass.\tps6305.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51421@datahass.\tps6305.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'TPS6305_RMW0012A_TPS63050':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51261@DATAHASS.TPS6305.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51261@datahass.\tps6305.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51261@datahass.\tps6305.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'BQ24080_LGA_BQ24080':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):POWER@DATAHSS.POWER(SCH_1):INS51481@DATAHASS.BQ24080.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):power@datahss.power(sch_1):ins51481@datahass.\bq24080.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_power@datahss.power(sch_1):page1_ins51481@datahass.\bq24080.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ XTAL1 'CRYSTAL_SN_SMD_0603_XTAL_32.768':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49705@NAVARETTI_LIB.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49705@navaretti_lib.\crystal.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49705@navaretti_lib.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ XTAL2 'CRYSTAL_SN_SMD_0603_XTAL_24MHZ':;
+
+SECTION_NUMBER 1
+ '@DATAHSS.TOP_LEVEL(SCH_1):MICRO@DATAHSS.MICRO(SCH_1):INS49863@NAVARETTI_LIB.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@datahss.top_level(sch_1):micro@datahss.micro(sch_1):ins49863@navaretti_lib.\crystal.normal\(chips)',
+ P_PATH='@datahss.top_level(sch_1):page1_micro@datahss.micro(sch_1):page1_ins49863@navaretti_lib.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

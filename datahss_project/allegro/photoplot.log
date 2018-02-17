@@ -1,0 +1,555 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : DATAHSS.brd                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jan 29 10:53:14 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
+
+
+
+================================================================
+     PROCESSING FILM < SOLDER_MASK_TOP >
+     TO FILE < C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/SOLDER_MASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05512                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  SQUARE     0.14370                     0.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01378       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01378      90.000 NO     DARK 
+  RECTANGLE  0.01654     x 0.03898       0.000 NO     DARK 
+  RECTANGLE  0.01654     x 0.03898      90.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.07087      90.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.02992     x 0.01024      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.09449       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.09843      90.000 NO     DARK 
+  RECTANGLE  0.10630     x 0.11024      90.000 NO     DARK 
+
+     SOLDER_MASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDER_MASK_BOTTOM >
+     TO FILE < C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/SOLDER_MASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05906                                  DARK 
+
+     SOLDER_MASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < ETCH_TOP >
+     TO FILE < C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/ETCH_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(18.0538 33.4260) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(13.9141 18.7350) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.2000 19.7501) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.2950 30.0380) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.5100 38.1269) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.8511 12.2580) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.7560 24.4500) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.7561 25.5930) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.6619 24.4500) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.6619 25.5930) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.2321 32.5780) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(21.1140 34.9519) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(31.9781 34.9851) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(22.3840 29.3639) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(22.2570 34.9519) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(9.1760 31.5230) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.7160 31.4789) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(12.7160 31.4790) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.6280 30.0380) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.7160 31.4789) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.2159 31.4789) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.7160 34.4390) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.3830 33.5550) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(12.7160 34.4390) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.2160 34.4390) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.7160 34.4391) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.0810 38.1270) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(13.3670 38.1269) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(12.2240 39.0160) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(16.9620 25.5930) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.9509 26.8330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.4010 27.8830) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.4010 28.3830) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.4511 26.8330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.9949 30.0381) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.9509 29.4330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.4510 26.8330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.9510 26.8330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.4239 29.4601) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(11.2319 15.7541) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.8870 11.5240) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.8870 12.0240) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.8870 12.5240) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(13.8000 19.7500) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.8470 12.0240) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.8470 12.5240) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.3040 11.2030) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.8470 13.0240) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.6170 15.7540) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.1170 15.7540) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.6139 18.7350) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(16.0000 19.7500) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(15.9070 35.5870) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.2740 35.7411) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.2740 34.7411) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.2740 35.2410) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.4470 11.2030) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.8511 13.4010) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(21.4560 24.4500) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(20.0010 27.8830) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(21.4560 25.5930) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(20.0010 28.3829) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.8240 33.6910) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(18.3240 33.6910) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.8740 35.2410) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.8740 34.7411) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.8740 35.7410) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(19.8740 34.2410) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(37.6639 35.6710) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00630                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.00866                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01772                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02756                                  DARK 
+  CIRCLE     0.05118                                  DARK 
+  CIRCLE     0.05512                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  SQUARE     0.01969                     0.000 NO     DARK 
+  SQUARE     0.13976                     0.000 NO     DARK 
+  RECTANGLE  0.00866     x 0.02087       0.000 NO     DARK 
+  RECTANGLE  0.00866     x 0.02087      90.000 NO     DARK 
+  RECTANGLE  0.01102     x 0.03346       0.000 NO     DARK 
+  RECTANGLE  0.01102     x 0.03346      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01378       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01378      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.06693      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.02992     x 0.01024      90.000 NO     DARK 
+  RECTANGLE  0.03228     x 0.01260       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.09449       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.09843      90.000 NO     DARK 
+  RECTANGLE  0.10236     x 0.10630      90.000 NO     DARK 
+
+     ETCH_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < ETCH_BOTTOM >
+     TO FILE < C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/ETCH_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(31.9781 36.3569) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00000                                  DARK 
+  CIRCLE     0.00630                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.00866                                  DARK 
+  CIRCLE     0.01772                                  DARK 
+  CIRCLE     0.05512                                  DARK 
+
+     ETCH_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+
+     OUTLINE created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILK_SCREEN_TOP >
+     TO FILE < C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/SILK_SCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (2.0000 7.7900)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (4.2000 18.5000)
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00197                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     SILK_SCREEN_TOP created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        SOLDER_MASK_TOP created with warnings
+        SOLDER_MASK_BOTTOM created with warnings
+        ETCH_TOP created with warnings
+        ETCH_BOTTOM created with warnings
+        OUTLINE created with warnings
+        SILK_SCREEN_TOP created with warnings
+
+ ARTWORK had warnings

@@ -1,0 +1,70 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : DATAHSS.brd                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Jan 27 15:59:53 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.4
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-363): Units system is being switched when generating drill output file data.
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.3000  P        T01            0.000000     0.000000
+         0.9000  P        T02            0.000000     0.000000
+         1.0000  P        T03            0.000000     0.000000
+         1.7000  P        T04            0.000000     0.000000
+
+
+ Drill files being output to directory 'C:/temp/allegro' ...
+
+
+
+     'DATAHSS-1-2.drl' created for holes connecting TOP and BOTTOM
+     -------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.  11.8110    0.0000/  0.0000      PLATED         92
+     T02    2.  35.4331    0.0000/  0.0000      PLATED          5
+     T03    3.  39.3701    0.0000/  0.0000      PLATED         25
+     T04    4.  66.9291    0.0000/  0.0000      PLATED          2
+
+     ---- Total holes:                                        124
+
+     ---- Total head travel:              3.12 feet (0.95 meters)
+

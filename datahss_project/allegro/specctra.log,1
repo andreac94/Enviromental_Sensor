@@ -1,0 +1,2544 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Thu Jan 25 19:12:51 2018
+# 
+# Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
+# Running on: baracca, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro/specctra.did
+# Current time = Thu Jan 25 19:12:51 2018
+# PCB C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro
+# Master Unit set up as: MM 100000
+# PCB Limits xlo= -2.5900 ylo= -2.3800 xhi= 44.4900 yhi= 44.4800
+# Total 58 Images Consolidated.
+# Via SN_PTH_DRILL0D3_PAD0D45 z=1, 2 xlo= -0.2250 ylo= -0.2250 xhi=  0.2250 yhi=  0.2250
+# Via VIA z=1, 2 xlo= -0.3048 ylo= -0.3048 xhi=  0.3048 yhi=  0.3048
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 237, Vias Processed 100
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 69, Images Processed 87, Padstacks Processed 20
+# Nets Processed 53, Net Terminals 315
+# PCB Area= 1823.280  EIC=16  Area/EIC=113.955  SMDs=65
+# Total Pin Count: 235
+# Signal Connections Created 7
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 54, at vias 42 Total Vias 100
+# Percent Connected   32.52
+# Manhattan Length 853.7747 Horizontal 422.2713 Vertical 431.5034
+# Routed Length 821.6020 Horizontal 487.5728 Vertical 414.9486
+# Ratio Actual / Manhattan   0.9623
+# Unconnected Length  23.6681 Horizontal   7.1880 Vertical  16.4801
+# Total Conflicts: 68 (Cross: 0, Clear: 68, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/gino/AppData/Local/Temp/#Taaaaaf07716.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 4
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger on
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Smart Route: Executing bus diagonal.
+# Diagonal wire corners are preferred.
+# Current time = Thu Jan 25 19:13:08 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 54, at vias 42 Total Vias 100
+# Percent Connected   32.52
+# Manhattan Length 853.7747 Horizontal 422.2713 Vertical 431.5034
+# Routed Length 821.6020 Horizontal 487.5728 Vertical 414.9486
+# Ratio Actual / Manhattan   0.9623
+# Unconnected Length  23.6681 Horizontal   7.1880 Vertical  16.4801
+# Attempts 2 Successes 0 Failures 2 Vias 100
+# 90 degree wire corners are preferred.
+# Total Conflicts: 68 (Cross: 0, Clear: 68, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 54, at vias 42 Total Vias 100
+# Percent Connected   32.52
+# Manhattan Length 853.7747 Horizontal 422.2713 Vertical 431.5034
+# Routed Length 821.6020 Horizontal 487.5728 Vertical 414.9486
+# Ratio Actual / Manhattan   0.9623
+# Unconnected Length  23.6681 Horizontal   7.1880 Vertical  16.4801
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# <<WARNING:>> Smart Route: 100.00 percent of bus attempts failed.
+# 90 degree wire corners are preferred.
+# Smart Route: Executing 25 route passes.
+# Current time = Thu Jan 25 19:13:08 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 54, at vias 42 Total Vias 100
+# Percent Connected   32.52
+# Manhattan Length 853.7747 Horizontal 422.2713 Vertical 431.5034
+# Routed Length 821.6020 Horizontal 487.5728 Vertical 414.9486
+# Ratio Actual / Manhattan   0.9623
+# Unconnected Length  23.6681 Horizontal   7.1880 Vertical  16.4801
+# Start Route Pass 1 of 25
+# Routing 244 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 38 (Cross: 3, Clear: 35, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 179 Successes 100 Failures 79 Vias 76
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Start Route Pass 2 of 25
+# Routing 272 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 28 (Cross: 4, Clear: 24, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 213 Successes 132 Failures 81 Vias 65
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.2632
+# End Pass 2 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# <<WARNING:>> Smart Route: Conflict reduction rate 26 is very low 
+# after 2 passes. 
+# Design may not reach 100%. 
+# Check number of layers, grids and design rules.
+# Start Route Pass 3 of 25
+# Routing 276 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 5 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 23 (Cross: 2, Clear: 21, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 217 Successes 136 Failures 81 Vias 68
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.1786
+# End Pass 3 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# <<WARNING:>> Smart Route: Average reduction ratio only 22 after 3 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 4 of 25
+# Routing 262 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 24 (Cross: 5, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 216 Successes 137 Failures 79 Vias 60
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction -0.0434
+# End Pass 4 of 25
+# <<WARNING:>> Smart Route: Average reduction ratio only 14 after 4 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 5 of 25
+# Routing 264 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 6 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 216 Successes 136 Failures 80 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.2500
+# End Pass 5 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# <<WARNING:>> Smart Route: Average reduction ratio only 17 after 5 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 6 of 25
+# Routing 80 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 72 Successes 30 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 6 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 6 passes.
+# Start Route Pass 7 of 25
+# Routing 46 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 0, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 41 Successes 14 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 7 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 7 passes.
+# Start Route Pass 8 of 25
+# Routing 76 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 20 (Cross: 2, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 68 Successes 26 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 8 of 25
+# Smart Route: Smart_route progressing normally after 8 passes.
+# Start Route Pass 9 of 25
+# Routing 44 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 0, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 39 Successes 13 Failures 26 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 9 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 9 passes.
+# Start Route Pass 10 of 25
+# Routing 78 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 22 (Cross: 1, Clear: 21, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 70 Successes 28 Failures 42 Vias 58
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 10 of 25
+# Smart Route: Smart_route progressing normally after 10 passes.
+# Start Route Pass 11 of 25
+# Routing 46 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 22 (Cross: 1, Clear: 21, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 40 Successes 15 Failures 25 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 11 of 25
+# Smart Route: Smart_route progressing normally after 11 passes.
+# Start Route Pass 12 of 25
+# Routing 81 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 72 Successes 31 Failures 41 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 12 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 12 passes.
+# Start Route Pass 13 of 25
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 22 (Cross: 1, Clear: 21, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 43 Successes 18 Failures 25 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 13 of 25
+# Smart Route: Smart_route progressing normally after 13 passes.
+# Start Route Pass 14 of 25
+# Routing 80 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 20 (Cross: 1, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 71 Successes 30 Failures 41 Vias 58
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 14 of 25
+# Smart Route: Smart_route progressing normally after 14 passes.
+# Start Route Pass 15 of 25
+# Routing 46 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 40 Successes 15 Failures 25 Vias 58
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 15 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 15 passes.
+# Start Route Pass 16 of 25
+# Routing 80 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 19 (Cross: 1, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 70 Successes 29 Failures 41 Vias 57
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 16 of 25
+# Smart Route: Smart_route progressing normally after 16 passes.
+# Start Route Pass 17 of 25
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 41 Successes 15 Failures 26 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 17 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 17 passes.
+# Start Route Pass 18 of 25
+# Routing 81 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 71 Successes 30 Failures 41 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 18 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 18 passes.
+# Start Route Pass 19 of 25
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 16 Failures 26 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 19 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 19 passes.
+# Start Route Pass 20 of 25
+# Routing 81 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 72 Successes 30 Failures 42 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 20 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 20 passes.
+# Start Route Pass 21 of 25
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 19 (Cross: 1, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 21 of 25
+# Smart Route: Smart_route progressing normally after 21 passes.
+# Start Route Pass 22 of 25
+# Routing 81 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 71 Successes 29 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 22 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 22 passes.
+# Start Route Pass 23 of 25
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 23 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 23 passes.
+# Start Route Pass 24 of 25
+# Routing 81 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 71 Successes 29 Failures 42 Vias 57
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 24 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 24 passes.
+# Start Route Pass 25 of 25
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 25 of 25
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 25 passes.
+# Cpu Time = 0:00:22  Elapsed Time = 0:00:11
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:22
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 64, at vias 12 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 839.1609 Horizontal 420.6075 Vertical 418.5534
+# Routed Length 855.4100 Horizontal 480.0173 Vertical 441.2948
+# Ratio Actual / Manhattan   1.0194
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu Jan 25 19:13:19 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 64, at vias 12 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 839.1609 Horizontal 420.6075 Vertical 418.5534
+# Routed Length 855.4100 Horizontal 480.0173 Vertical 441.2948
+# Ratio Actual / Manhattan   1.0194
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Start Clean Pass 1 of 2
+# Routing 267 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 221 Successes 136 Failures 85 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 284 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 221 Successes 135 Failures 86 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:23
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 837.8009 Horizontal 415.4914 Vertical 422.3095
+# Routed Length 851.8106 Horizontal 471.4633 Vertical 438.7595
+# Ratio Actual / Manhattan   1.0167
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Smart Route: Executing 50 route passes.
+# Current time = Thu Jan 25 19:13:20 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 837.8009 Horizontal 415.4914 Vertical 422.3095
+# Routed Length 851.8106 Horizontal 471.4633 Vertical 438.7595
+# Ratio Actual / Manhattan   1.0167
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Start Route Pass 1 of 50
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 43 Successes 16 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 50
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 26 passes.
+# Start Route Pass 2 of 50
+# Routing 82 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 20 (Cross: 1, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 72 Successes 30 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 50
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:25
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 65, at vias 14 Total Vias 57
+# Percent Connected   88.34
+# Manhattan Length 836.5082 Horizontal 414.9473 Vertical 421.5609
+# Routed Length 851.6655 Horizontal 471.1849 Vertical 438.7790
+# Ratio Actual / Manhattan   1.0181
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# <<WARNING:>> Smart Route: No real conflict reduction achieved in previous 5 passes. 
+# Automatically forcing convergence.
+# Current time = Thu Jan 25 19:13:21 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 65, at vias 14 Total Vias 57
+# Percent Connected   88.34
+# Manhattan Length 836.5082 Horizontal 414.9473 Vertical 421.5609
+# Routed Length 851.6655 Horizontal 471.1849 Vertical 438.7790
+# Ratio Actual / Manhattan   1.0181
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Start Route Pass 1 of 5
+# Routing 48 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 82 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 20 (Cross: 1, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 73 Successes 31 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 48 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 82 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 20 (Cross: 1, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 73 Successes 31 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 48 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:29
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 838.0597 Horizontal 415.6825 Vertical 422.3772
+# Routed Length 852.0702 Horizontal 470.2529 Vertical 439.9219
+# Ratio Actual / Manhattan   1.0167
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Current time = Thu Jan 25 19:13:23 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 838.0597 Horizontal 415.6825 Vertical 422.3772
+# Routed Length 852.0702 Horizontal 470.2529 Vertical 439.9219
+# Ratio Actual / Manhattan   1.0167
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Start Route Pass 1 of 5
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 43 Successes 16 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 82 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 73 Successes 31 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 49 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 42 Successes 15 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 82 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 19 (Cross: 1, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 72 Successes 30 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 45 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 39 Successes 13 Failures 26 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:33
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 65, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 838.3295 Horizontal 415.8103 Vertical 422.5192
+# Routed Length 852.3171 Horizontal 471.1457 Vertical 439.8689
+# Ratio Actual / Manhattan   1.0167
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Current time = Thu Jan 25 19:13:25 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 65, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 838.3295 Horizontal 415.8103 Vertical 422.5192
+# Routed Length 852.3171 Horizontal 471.1457 Vertical 439.8689
+# Ratio Actual / Manhattan   1.0167
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Start Route Pass 1 of 5
+# Routing 45 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 39 Successes 13 Failures 26 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 82 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 19 (Cross: 1, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 73 Successes 31 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 47 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 20 (Cross: 1, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 41 Successes 14 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 83 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 73 Successes 31 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 46 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 18 (Cross: 1, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 40 Successes 13 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:05  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:37
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 839.5335 Horizontal 416.3809 Vertical 423.1526
+# Routed Length 852.9766 Horizontal 471.3967 Vertical 439.4619
+# Ratio Actual / Manhattan   1.0160
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Current time = Thu Jan 25 19:13:27 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 839.5335 Horizontal 416.3809 Vertical 423.1526
+# Routed Length 852.9766 Horizontal 471.3967 Vertical 439.4619
+# Ratio Actual / Manhattan   1.0160
+# Unconnected Length  10.5143 Horizontal   1.3831 Vertical   9.1312
+# Start Route Pass 1 of 5
+# Routing 46 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 14 (Cross: 1, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 40 Successes 13 Failures 27 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 78 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 14 (Cross: 1, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 70 Successes 28 Failures 42 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 44 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 14 (Cross: 1, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 39 Successes 12 Failures 27 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 80 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 14 (Cross: 1, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 72 Successes 30 Failures 42 Vias 57
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 44 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 14 (Cross: 1, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 39 Successes 12 Failures 27 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:03
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Route    | 45|     1|    13|  27|    3|   57|    0|   0| 22|  0:00:01|  0:00:38|
+# Route    | 46|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:01|  0:00:39|
+# Route    | 47|     1|    13|  27|    4|   57|    0|   0|  0|  0:00:00|  0:00:39|
+# Route    | 48|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:02|  0:00:41|
+# Route    | 49|     1|    13|  27|    3|   57|    0|   0|  0|  0:00:00|  0:00:41|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:41
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 840.1825 Horizontal 416.6884 Vertical 423.4941
+# Routed Length 851.0766 Horizontal 471.9967 Vertical 436.9619
+# Ratio Actual / Manhattan   1.0130
+# Unconnected Length  12.3933 Horizontal   1.9051 Vertical  10.4882
+# Current time = Thu Jan 25 19:13:30 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 57
+# Percent Connected   88.96
+# Manhattan Length 840.1825 Horizontal 416.6884 Vertical 423.4941
+# Routed Length 851.0766 Horizontal 471.9967 Vertical 436.9619
+# Ratio Actual / Manhattan   1.0130
+# Unconnected Length  12.3933 Horizontal   1.9051 Vertical  10.4882
+# Start Route Pass 1 of 5
+# Routing 44 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 39 Successes 12 Failures 27 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 70 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 66 Successes 27 Failures 39 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 39 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 13 (Cross: 1, Clear: 12, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 37 Successes 11 Failures 26 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 70 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 66 Successes 27 Failures 39 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 39 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 37 Successes 11 Failures 26 Vias 55
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Route    | 45|     1|    13|  27|    3|   57|    0|   0| 22|  0:00:01|  0:00:38|
+# Route    | 46|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:01|  0:00:39|
+# Route    | 47|     1|    13|  27|    4|   57|    0|   0|  0|  0:00:00|  0:00:39|
+# Route    | 48|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:02|  0:00:41|
+# Route    | 49|     1|    13|  27|    3|   57|    0|   0|  0|  0:00:00|  0:00:41|
+# Route    | 50|     1|    10|  27|    4|   55|    0|   0| 21|  0:00:01|  0:00:42|
+# Route    | 51|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:43|
+# Route    | 52|     1|    12|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:44|
+# Route    | 53|     1|    10|  39|    4|   55|    0|   0| 15|  0:00:01|  0:00:45|
+# Route    | 54|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:45|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:45
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 55
+# Percent Connected   90.18
+# Manhattan Length 840.1825 Horizontal 416.5669 Vertical 423.6156
+# Routed Length 842.6645 Horizontal 465.9824 Vertical 435.5178
+# Ratio Actual / Manhattan   1.0030
+# Unconnected Length  18.6803 Horizontal   7.5530 Vertical  11.1273
+# Current time = Thu Jan 25 19:13:32 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 55
+# Percent Connected   90.18
+# Manhattan Length 840.1825 Horizontal 416.5669 Vertical 423.6156
+# Routed Length 842.6645 Horizontal 465.9824 Vertical 435.5178
+# Ratio Actual / Manhattan   1.0030
+# Unconnected Length  18.6803 Horizontal   7.5530 Vertical  11.1273
+# Start Route Pass 1 of 5
+# Routing 39 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 37 Successes 11 Failures 26 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 70 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 66 Successes 27 Failures 39 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 3 of 5
+# Routing 39 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 37 Successes 11 Failures 26 Vias 55
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 4 of 5
+# Routing 71 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 66 Successes 27 Failures 39 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 39 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 37 Successes 11 Failures 26 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Wiring Written to File C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\bestsave.w
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Route    | 45|     1|    13|  27|    3|   57|    0|   0| 22|  0:00:01|  0:00:38|
+# Route    | 46|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:01|  0:00:39|
+# Route    | 47|     1|    13|  27|    4|   57|    0|   0|  0|  0:00:00|  0:00:39|
+# Route    | 48|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:02|  0:00:41|
+# Route    | 49|     1|    13|  27|    3|   57|    0|   0|  0|  0:00:00|  0:00:41|
+# Route    | 50|     1|    10|  27|    4|   55|    0|   0| 21|  0:00:01|  0:00:42|
+# Route    | 51|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:43|
+# Route    | 52|     1|    12|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:44|
+# Route    | 53|     1|    10|  39|    4|   55|    0|   0| 15|  0:00:01|  0:00:45|
+# Route    | 54|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:45|
+# Route    | 55|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:46|
+# Route    | 56|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:47|
+# Route    | 57|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:47|
+# Route    | 58|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:48|
+# Route    | 59|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:49|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:49
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 55
+# Percent Connected   90.18
+# Manhattan Length 839.9425 Horizontal 416.4532 Vertical 423.4893
+# Routed Length 842.4848 Horizontal 465.3164 Vertical 435.5178
+# Ratio Actual / Manhattan   1.0030
+# Unconnected Length  18.6803 Horizontal   7.5530 Vertical  11.1273
+# Current time = Thu Jan 25 19:13:33 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 66, at vias 14 Total Vias 55
+# Percent Connected   90.18
+# Manhattan Length 839.9425 Horizontal 416.4532 Vertical 423.4893
+# Routed Length 842.4848 Horizontal 465.3164 Vertical 435.5178
+# Ratio Actual / Manhattan   1.0030
+# Unconnected Length  18.6803 Horizontal   7.5530 Vertical  11.1273
+# Start Route Pass 1 of 5
+# Routing 39 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 7 (Cross: 1, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 8
+# Attempts 37 Successes 11 Failures 26 Vias 49
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 44 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 7 (Cross: 1, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 43 Successes 14 Failures 29 Vias 51
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 26 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 9 (Cross: 1, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 26 Successes 7 Failures 19 Vias 51
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 45 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 7 (Cross: 1, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 43 Successes 14 Failures 29 Vias 49
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 28 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 9 (Cross: 1, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 28 Successes 8 Failures 20 Vias 49
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 5
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Route    | 45|     1|    13|  27|    3|   57|    0|   0| 22|  0:00:01|  0:00:38|
+# Route    | 46|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:01|  0:00:39|
+# Route    | 47|     1|    13|  27|    4|   57|    0|   0|  0|  0:00:00|  0:00:39|
+# Route    | 48|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:02|  0:00:41|
+# Route    | 49|     1|    13|  27|    3|   57|    0|   0|  0|  0:00:00|  0:00:41|
+# Route    | 50|     1|    10|  27|    4|   55|    0|   0| 21|  0:00:01|  0:00:42|
+# Route    | 51|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:43|
+# Route    | 52|     1|    12|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:44|
+# Route    | 53|     1|    10|  39|    4|   55|    0|   0| 15|  0:00:01|  0:00:45|
+# Route    | 54|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:45|
+# Route    | 55|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:46|
+# Route    | 56|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:47|
+# Route    | 57|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:47|
+# Route    | 58|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:48|
+# Route    | 59|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:49|
+# Route    | 60|     1|     6|  26|    8|   49|    0|   0| 36|  0:00:00|  0:00:49|
+# Route    | 61|     1|     6|  29|    7|   51|    0|   0|  0|  0:00:00|  0:00:49|
+# Route    | 62|     1|     8|  19|    7|   51|    0|   0|  0|  0:00:01|  0:00:50|
+# Route    | 63|     1|     6|  29|    7|   49|    0|   0| 22|  0:00:00|  0:00:50|
+# Route    | 64|     1|     8|  20|    7|   49|    0|   0|  0|  0:00:01|  0:00:51|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:51
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 67, at vias 14 Total Vias 49
+# Percent Connected   93.25
+# Manhattan Length 839.4535 Horizontal 416.1773 Vertical 423.2762
+# Routed Length 825.5200 Horizontal 457.0544 Vertical 423.4729
+# Ratio Actual / Manhattan   0.9834
+# Unconnected Length  40.7049 Horizontal  16.7029 Vertical  24.0020
+# <<ERROR:>> Smart Route: Unable to reach 100% with smart_route. 
+# Check placement, rules, grids, keepouts
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu Jan 25 19:13:34 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 67, at vias 14 Total Vias 49
+# Percent Connected   93.25
+# Manhattan Length 839.4535 Horizontal 416.1773 Vertical 423.2762
+# Routed Length 825.5200 Horizontal 457.0544 Vertical 423.4729
+# Ratio Actual / Manhattan   0.9834
+# Unconnected Length  40.7049 Horizontal  16.7029 Vertical  24.0020
+# Start Clean Pass 1 of 2
+# Routing 265 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 9 (Cross: 1, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 224 Successes 139 Failures 85 Vias 51
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 274 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 9 (Cross: 1, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 225 Successes 139 Failures 86 Vias 51
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Route    | 45|     1|    13|  27|    3|   57|    0|   0| 22|  0:00:01|  0:00:38|
+# Route    | 46|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:01|  0:00:39|
+# Route    | 47|     1|    13|  27|    4|   57|    0|   0|  0|  0:00:00|  0:00:39|
+# Route    | 48|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:02|  0:00:41|
+# Route    | 49|     1|    13|  27|    3|   57|    0|   0|  0|  0:00:00|  0:00:41|
+# Route    | 50|     1|    10|  27|    4|   55|    0|   0| 21|  0:00:01|  0:00:42|
+# Route    | 51|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:43|
+# Route    | 52|     1|    12|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:44|
+# Route    | 53|     1|    10|  39|    4|   55|    0|   0| 15|  0:00:01|  0:00:45|
+# Route    | 54|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:45|
+# Route    | 55|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:46|
+# Route    | 56|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:47|
+# Route    | 57|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:47|
+# Route    | 58|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:48|
+# Route    | 59|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:49|
+# Route    | 60|     1|     6|  26|    8|   49|    0|   0| 36|  0:00:00|  0:00:49|
+# Route    | 61|     1|     6|  29|    7|   51|    0|   0|  0|  0:00:00|  0:00:49|
+# Route    | 62|     1|     8|  19|    7|   51|    0|   0|  0|  0:00:01|  0:00:50|
+# Route    | 63|     1|     6|  29|    7|   49|    0|   0| 22|  0:00:00|  0:00:50|
+# Route    | 64|     1|     8|  20|    7|   49|    0|   0|  0|  0:00:01|  0:00:51|
+# Clean    | 65|     1|     8|  85|    7|   51|    0|   0|   |  0:00:00|  0:00:51|
+# Clean    | 66|     1|     8|  86|    7|   51|    0|   0|   |  0:00:00|  0:00:51|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:51
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 67, at vias 17 Total Vias 51
+# Percent Connected   93.25
+# Manhattan Length 838.9989 Horizontal 417.1003 Vertical 421.8986
+# Routed Length 815.8490 Horizontal 445.4339 Vertical 426.4639
+# Ratio Actual / Manhattan   0.9724
+# Unconnected Length  40.7049 Horizontal  16.7029 Vertical  24.0020
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu Jan 25 19:13:35 2018
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 67, at vias 17 Total Vias 51
+# Percent Connected   93.25
+# Manhattan Length 838.9989 Horizontal 417.1003 Vertical 421.8986
+# Routed Length 815.8490 Horizontal 445.4339 Vertical 426.4639
+# Ratio Actual / Manhattan   0.9724
+# Unconnected Length  40.7049 Horizontal  16.7029 Vertical  24.0020
+# Start Clean Pass 1 of 2
+# Routing 264 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 9 (Cross: 1, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 223 Successes 138 Failures 85 Vias 51
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 268 wires.
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 9 (Cross: 1, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 223 Successes 137 Failures 86 Vias 51
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1700, Clearance= 0.1600
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1600, Clearance= 0.1600
+# Command check detected use_via rule(s), pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore use_via rule(s), pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|    68|   2|    7|  100|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|     3|    35|  79|    2|   76|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     4|    24|  81|    1|   65|    0|   0| 26|  0:00:01|  0:00:01|
+# Route    |  3|     2|    21|  81|    3|   68|    0|   0| 17|  0:00:01|  0:00:02|
+# Route    |  4|     5|    19|  79|    3|   60|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|     1|    17|  80|    2|   57|    0|   0| 25|  0:00:01|  0:00:04|
+# Route    |  6|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    |  7|     0|    18|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    |  8|     2|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    |  9|     0|    18|  26|    2|   57|    0|   0| 10|  0:00:01|  0:00:08|
+# Route    | 10|     1|    21|  42|    2|   58|    0|   0|  0|  0:00:00|  0:00:08|
+# Route    | 11|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 12|     1|    17|  41|    2|   57|    0|   0| 18|  0:00:01|  0:00:10|
+# Route    | 13|     1|    21|  25|    2|   57|    0|   0|  0|  0:00:01|  0:00:11|
+# Route    | 14|     1|    19|  41|    2|   58|    0|   0|  9|  0:00:01|  0:00:12|
+# Route    | 15|     1|    17|  25|    2|   58|    0|   0| 10|  0:00:00|  0:00:12|
+# Route    | 16|     1|    18|  41|    2|   57|    0|   0|  0|  0:00:02|  0:00:14|
+# Route    | 17|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:01|  0:00:15|
+# Route    | 18|     1|    17|  41|    2|   57|    0|   0|  0|  0:00:01|  0:00:16|
+# Route    | 19|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 20|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:00|  0:00:17|
+# Route    | 21|     1|    18|  27|    2|   57|    0|   0|  0|  0:00:02|  0:00:19|
+# Route    | 22|     1|    17|  42|    2|   57|    0|   0|  5|  0:00:01|  0:00:20|
+# Route    | 23|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:20|
+# Route    | 24|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:02|  0:00:22|
+# Route    | 25|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:00|  0:00:22|
+# Clean    | 26|     1|    17|  85|    2|   57|    0|   0|   |  0:00:01|  0:00:23|
+# Clean    | 27|     1|    17|  86|    2|   57|    0|   0|   |  0:00:00|  0:00:23|
+# Route    | 28|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 29|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 30|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:26|
+# Route    | 31|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 32|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:00|  0:00:27|
+# Route    | 33|     1|    19|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:28|
+# Route    | 34|     1|    17|  27|    2|   57|    0|   0| 10|  0:00:01|  0:00:29|
+# Route    | 35|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:30|
+# Route    | 36|     1|    17|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 37|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 38|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:33|
+# Route    | 39|     1|    17|  26|    2|   57|    0|   0|  5|  0:00:00|  0:00:33|
+# Route    | 40|     1|    17|  26|    2|   57|    0|   0|  0|  0:00:00|  0:00:33|
+# Route    | 41|     1|    18|  42|    2|   57|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 42|     1|    19|  27|    3|   57|    0|   0|  0|  0:00:01|  0:00:35|
+# Route    | 43|     1|    17|  42|    2|   57|    0|   0| 10|  0:00:01|  0:00:36|
+# Route    | 44|     1|    17|  27|    2|   57|    0|   0|  0|  0:00:01|  0:00:37|
+# Route    | 45|     1|    13|  27|    3|   57|    0|   0| 22|  0:00:01|  0:00:38|
+# Route    | 46|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:01|  0:00:39|
+# Route    | 47|     1|    13|  27|    4|   57|    0|   0|  0|  0:00:00|  0:00:39|
+# Route    | 48|     1|    13|  42|    3|   57|    0|   0|  0|  0:00:02|  0:00:41|
+# Route    | 49|     1|    13|  27|    3|   57|    0|   0|  0|  0:00:00|  0:00:41|
+# Route    | 50|     1|    10|  27|    4|   55|    0|   0| 21|  0:00:01|  0:00:42|
+# Route    | 51|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:43|
+# Route    | 52|     1|    12|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:44|
+# Route    | 53|     1|    10|  39|    4|   55|    0|   0| 15|  0:00:01|  0:00:45|
+# Route    | 54|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:45|
+# Route    | 55|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:46|
+# Route    | 56|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:47|
+# Route    | 57|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:00|  0:00:47|
+# Route    | 58|     1|    10|  39|    4|   55|    0|   0|  0|  0:00:01|  0:00:48|
+# Route    | 59|     1|    10|  26|    4|   55|    0|   0|  0|  0:00:01|  0:00:49|
+# Route    | 60|     1|     6|  26|    8|   49|    0|   0| 36|  0:00:00|  0:00:49|
+# Route    | 61|     1|     6|  29|    7|   51|    0|   0|  0|  0:00:00|  0:00:49|
+# Route    | 62|     1|     8|  19|    7|   51|    0|   0|  0|  0:00:01|  0:00:50|
+# Route    | 63|     1|     6|  29|    7|   49|    0|   0| 22|  0:00:00|  0:00:50|
+# Route    | 64|     1|     8|  20|    7|   49|    0|   0|  0|  0:00:01|  0:00:51|
+# Clean    | 65|     1|     8|  85|    7|   51|    0|   0|   |  0:00:00|  0:00:51|
+# Clean    | 66|     1|     8|  86|    7|   51|    0|   0|   |  0:00:00|  0:00:51|
+# Clean    | 67|     1|     8|  85|    7|   51|    0|   0|   |  0:00:00|  0:00:51|
+# Clean    | 68|     1|     8|  86|    7|   51|    0|   0|   |  0:00:00|  0:00:51|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:51
+# 
+# Wiring Statistics ----------------- C:/Users/gino/Desktop/DATAHSS/datahss_project/allegro\DATAHSS.dsn
+# Nets 53 Connections 163 Unroutes 7
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 68, at vias 17 Total Vias 51
+# Percent Connected   93.25
+# Manhattan Length 838.8355 Horizontal 416.9945 Vertical 421.8410
+# Routed Length 817.6523 Horizontal 445.4866 Vertical 427.7001
+# Ratio Actual / Manhattan   0.9747
+# Unconnected Length  40.7049 Horizontal  16.7029 Vertical  24.0020
+# Smart Route: Smart_route finished, completion rate: 93.25.
+write routes (changed_only) (reset_changed) C:/Users/gino/AppData/Local/Temp/#Taaaaag07716.tmp
+# Routing Written to File C:/Users/gino/AppData/Local/Temp/#Taaaaag07716.tmp
+quit
